@@ -1,0 +1,53 @@
+.ff1{
+    font-family: 궁서체;
+}
+.ff2{
+    font-family: 굴림체;
+}
+
+#fs1{
+    font-size: 20px;
+}
+#fs2{
+    font-size: 2em;
+}
+#fs3{
+    font-size: 2rem;
+}
+
+#fw1{
+    /* 숫자로 넣을때 단위가 없음. */
+    font-weight: 900;
+}
+#fw2{
+    font-weight: lighter;
+}
+.fstyle{
+    font-style: oblique;
+}
+#c-name{
+    color: black;
+}
+#c-16{
+    /* #과 16진수 6자리를 합쳐서 색상을 표현
+    2자리씩 묶어서 빨강, 초록, 파랑 색상의 양을 표시함 
+    (중복된 수는 3자리로 표현이 가능하다*/
+    
+    color: #640000;
+    color: #000 ~ #fff
+}
+#c-rgb{
+    /* 빨강 초록 파랑의 양을 0~255까지의 숫자로 표현 */
+    color: rgb(255, 0, 0);
+}
+#c-rgba{
+    /* a : 투명도 0~1까지의 수로 지정 소수점 쓰면됨.
+    0:투명, 1:붙투명 */
+    color: rgba(0, 0, 255, 0.5);
+
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
